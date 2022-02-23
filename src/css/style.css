@@ -1,0 +1,215 @@
+img {
+    width: 100%;
+}
+
+
+h1 {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: 700;
+}
+
+p{
+    font-size: .6em;
+    font-family: verdana;
+}
+
+body{
+    background: url(/src/image/maxresdefault-translucido-1024.png) no-repeat ;
+    padding: 20px;
+    font-family: sans-serif;    
+    max-width: 1024px;
+}
+
+
+
+
+/* header */
+
+.header{
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.header .cabecalho{
+    display: flex;
+    align-items: center;
+    padding: 4px;
+
+
+
+}
+
+
+.logo {
+    display: block;
+}
+
+#logo {
+   max-width: 100px;
+   margin: 0 10px 5px 0;
+}
+
+
+nav ul {
+    display: flex;
+    justify-self: flex-end;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a{
+    color: black;
+    padding: 10px;
+    border-radius: 50px;
+    transition: 0.3s ease-in-out;
+}
+
+nav ul li a:hover{
+    background-color: navy;
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+/* hero */
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-top: 50px;
+
+}
+
+.hero .email{
+    display: block;
+}
+
+.hero .text{
+    margin: 15px 0;
+}
+
+.filme > div{
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.hero .qualidade .texto-item{
+    font-size: 1em;
+}
+
+#btn-salvar{
+    background-color: navy;
+    color: white;
+    font-size: .6em;
+    padding: 4px;
+    border-radius: 7px;
+    transition: 0.3s ease-in-out;
+}
+
+
+#btn-salvar:hover{
+    background-color: red;
+    color: white;
+    font-size: .6em;
+    padding: 4px;
+    border-radius: 7px;
+}
+
+.qualidade {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    display: flex;
+    margin: 10px;
+}
+
+.item i{
+    margin: 0 5px;
+    font-size: 30px;
+}
+
+.hero .filme{
+    display: block;
+    text-align: center;
+}
+
+/* hero */
+/* footer */
+
+
+.precos{
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+.pacote{
+    border: black 1px solid;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.pacote-foto{
+    max-width: 200px;
+align-items: center;
+}
+
+.pacote-titulo{
+    background-color: lightgray;
+    text-align: center;
+    padding: 15px;
+}
+
+.pacote-texto{
+    font-size: .5em;
+    max-width: 240px;
+    padding: 15px;
+
+}
+
+.pacote-btn button{
+    background-color: red;
+    color: white;
+    font-size: .6em;
+    padding: 4px;
+    border-radius: 7px;
+    transition: 0.3s ease-in-out;
+}
+
+.pacote-btn button:hover{
+    background-color: green;
+    color: white;
+    font-size: .6em;
+    padding: 4px;
+    border-radius: 7px;
+}
+
+.footer .copyright{
+    padding: 10px;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    background-color: lightgray;
+}
+
+#copy{
+   display: flex;
+   justify-content: flex-end;
+   padding: 2px;
+}
