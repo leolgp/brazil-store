@@ -19,7 +19,7 @@ p{
 }
 
 body{
-    background: url(/src/image/maxresdefault-translucido-1024.png) no-repeat ;
+    background: url(../image/maxresdefault-translucido-1024.png) no-repeat ;
     padding: 20px;
     font-family: sans-serif;    
     max-width: 1024px;
