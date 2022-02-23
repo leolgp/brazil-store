@@ -25,9 +25,6 @@ body{
     max-width: 1024px;
 }
 
-
-
-
 /* header */
 
 .header{
@@ -35,19 +32,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-
-
 }
 
 .header .cabecalho{
     display: flex;
     align-items: center;
     padding: 4px;
-
-
-
 }
-
 
 .logo {
     display: block;
@@ -57,7 +48,6 @@ body{
    max-width: 100px;
    margin: 0 10px 5px 0;
 }
-
 
 nav ul {
     display: flex;
@@ -91,7 +81,6 @@ nav ul li a:hover{
     align-items: center;
     padding: 10px;
     margin-top: 50px;
-
 }
 
 .hero .email{
@@ -172,15 +161,17 @@ align-items: center;
 
 .pacote-titulo{
     background-color: lightgray;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 15px;
+    height: 70px;
 }
 
 .pacote-texto{
     font-size: .5em;
     max-width: 240px;
     padding: 15px;
-
 }
 
 .pacote-btn button{
@@ -212,4 +203,53 @@ align-items: center;
    display: flex;
    justify-content: flex-end;
    padding: 2px;
+}
+
+@media(max-width:546px ){
+    
+.header{
+    background-color: lightgray;
+    display: block;
+    text-align: center;
+}
+
+.header .cabecalho{
+    display: block;
+    align-items: center;
+    padding: 4px;
+}
+
+nav ul {
+    display: block;
+    padding: 5px;
+}
+
+nav ul li{
+    display: block;
+    padding: 5px;
+}
+
+body{
+    background: url() no-repeat ;
+    padding: 20px;
+    font-family: sans-serif;    
+    max-width: 524px;
+}
+
+
+.hero{   
+    margin: 10px;
+}
+
+.email{
+    background-color: lightgray;
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.footer .copyright{
+    display: block;
+    text-align: center;
+}
 }
