@@ -84,7 +84,10 @@ nav ul li a:hover{
 }
 
 .hero .email{
-    display: block;
+    background-color: rgba(211, 211, 211, 0.3);
+    text-align: center;
+    padding: 20px 15px 10px;
+    border-radius: 30px;
 }
 
 .hero .text{
@@ -241,8 +244,8 @@ body{
     margin: 10px;
 }
 
-.email{
-    background-color: lightgray;
+.hero .email{
+    background-color: rgba(211, 211, 211, .6);
     text-align: center;
     padding: 20px;
     border-radius: 30px;
